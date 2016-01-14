@@ -15,3 +15,6 @@ rm artifact.php?name=neo4j-community-2.3.1-unix.tar.gz
 echo -e "########### SETTINGS FOR HOMESTEAD ############" >> ~/neo4j/conf/neo4j-server.properties
 echo -e "org.neo4j.server.webserver.address=0.0.0.0" >> ~/neo4j/conf/neo4j-server.properties
 echo -e "###################################" >> ~/neo4j/conf/neo4j-server.properties
+
+sudo apt-get update
+sudo apt-get install openjdk-7-jre -y
