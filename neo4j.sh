@@ -18,3 +18,7 @@ echo -e "###################################" >> ~/neo4j/conf/neo4j-server.prope
 
 sudo apt-get update
 sudo apt-get install openjdk-7-jre -y
+
+~/neo4j/bin/neo4j start
+
+echo -e "Neo4J setup is complete"
