@@ -17,7 +17,7 @@ sudo apt-get update
 sudo apt-get install openjdk-8-jre -y
 
 replace "#dbms.connector.http.address=0.0.0.0:7474" "dbms.connector.http.address=0.0.0.0:7474" -- ~/neo4j/conf/neo4j.conf
-replace "# dbms.connector.bolt.address=0.0.0.0:7687" "dbms.connector.bolt.address=0.0.0.0:7687" -- ~/neo4j/conf/neo4j.conf/
+replace "# dbms.connector.bolt.address=0.0.0.0:7687" "dbms.connector.bolt.address=0.0.0.0:7687" -- ~/neo4j/conf/neo4j.conf
 
 ~/neo4j/bin/neo4j start
 
