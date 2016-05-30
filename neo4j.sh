@@ -4,13 +4,13 @@ echo "Start adding Neo4j settings"
 
 echo "Downloading Neo4j..."
 
-wget http://neo4j.com/artifact.php?name=neo4j-community-2.3.2-unix.tar.gz
+wget http://neo4j.com/artifact.php?name=neo4j-community-2.3.4-unix.tar.gz
 
-tar xf artifact.php?name=neo4j-community-2.3.2-unix.tar.gz
+tar xf artifact.php?name=neo4j-community-2.3.4-unix.tar.gz
 
-mv neo4j-community-2.3.2 ~/neo4j
+mv neo4j-community-2.3.4 ~/neo4j
 
-rm artifact.php?name=neo4j-community-2.3.2-unix.tar.gz
+rm artifact.php?name=neo4j-community-2.3.4-unix.tar.gz
 
 echo -e "########### SETTINGS FOR HOMESTEAD ############" >> ~/neo4j/conf/neo4j-server.properties
 echo -e "org.neo4j.server.webserver.address=0.0.0.0" >> ~/neo4j/conf/neo4j-server.properties
